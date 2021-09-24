@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: url(https://http2.mlstatic.com/painel-tecido-sublimado-champions-league-30-alt-x-40-larg-D_NQ_NP_644976-MLB26431741392_112017-F.jpg);
+    background-size: cover;
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.5s;
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.card:hover {
+    background-color: rgba(255, 255, 255, 0.79);
+}
+
+.card h2 {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    transition: 0.5s;
+    color: #404040;
+}
+
+.card:hover h2 {
+    background: linear-gradient(to right, #000000, #363129, #2b567b, #0c5d60, #2b567b, #363129, #000000);
+    color: #FFF;
+}
+
+.card:before {
+    content: '';
+    position: absolute;
+    bottom: -70%;
+    left: -120%;
+    width: 100%;
+    height: 100%;
+    background: #FFF;
+    transition: 0.5s;
+    z-index: -1;
+    transform: skewX(-5deg);
+}
+
+.card:hover:before {
+    left: -50%;
+}
+
+.card:after {
+    content: '';
+    position: absolute;
+    bottom: -70%;
+    right: -120%;
+    width: 100%;
+    height: 100%;
+    background: #790f0f;
+    transition: 0.5s;
+    z-index: -1;
+    box-sizing: border-box;
+    transform: skewX(-5deg);
+    color: aliceblue;
+}
+
+.card:hover:after {
+    right: -50%;
+}
+
+.jogo {
+    position: relative;
+}
+
+.data {
+    margin: 10px 0 0;
+}
+
+.versus {
+    width: 40px;
+    height: 40px;
+    font-size: 13px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.63);
+    color: #FFF;
+    text-align: center;
+    line-height: 40px;
+    margin: 10px auto;
+}
+
+.estadio {
+    margin: 10px 0 0;
+}
+
+.primeiro {
+    width: 200px;
+    float: left;
+    padding: 10px 20px 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.segundo {
+    width: 200px;
+    float: left;
+    padding: 10px 20px 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.primeiro .segundo {
+    width: 100%;
+}
+
+.detalhesdata {
+    width: 200px;
+    min-height: 200px;
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nome {
+    text-align: center;
+    padding-top: 15px;
+    color: #292929;
+}
+.card:hover .liverpool {
+    color: #FFF;
+}
+
+h5 {
+    color: #404040;
+}
