@@ -139,3 +139,32 @@ body {
 h5 {
     color: #404040;
 }
+
+@media screen and (max-width: 840px) {
+    .card {
+        width: 100%;
+    }
+
+    .primeiro{
+        width: 30%;
+    }
+
+    .segundo{
+        width: 30%;
+    }
+
+    .detalhesdata{
+        width: 30%;
+    }
+
+    .estadio {
+        margin: -10px 0 0;
+    }
+
+    img {
+        position: relative;
+        left: -40px;
+        width: 150px;
+    }
+}
+
