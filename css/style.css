@@ -140,6 +140,25 @@ h5 {
     color: #404040;
 }
 
+.sorteio {
+    background-color: #0c4c607c;
+    border-radius: 10px;
+    position: relative;
+    top:650px;
+}
+
+.sorteio h2 {
+    font-size: 20px;
+    color: rgb(218, 204, 204);
+    padding: 10px;
+}
+
+.sorteio span{
+    display: block;
+    padding: 2px;
+    color: rgb(218, 204, 204);
+}
+
 @media screen and (max-width: 840px) {
     .card {
         width: 100%;
@@ -165,6 +184,25 @@ h5 {
         position: relative;
         left: -40px;
         width: 150px;
+    }
+
+    .sorteio {
+        background-color: #0c4c607c;
+        border-radius: 10px;
+        position: relative;
+        top:550px;
+    }
+
+    .sorteio h2 {
+        font-size: 20px;
+        color: rgb(218, 204, 204);
+        padding: 10px;
+    }
+
+    .sorteio span{
+        display: block;
+        padding: 2px;
+        color: rgb(218, 204, 204);
     }
 }
 
